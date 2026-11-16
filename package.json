@@ -1,0 +1,26 @@
+{
+  "name": "threejs-ai-assistant",
+  "version": "1.0.0",
+  "description": "Interactive Three.js 3D Avatar Chat Assistant in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start:clean": "cmd /c \"set ELECTRON_RUN_AS_NODE=& electron .\"",
+    "dev": "electron .",
+    "backend": "python backend/main.py"
+  },
+  "keywords": [
+    "electron",
+    "threejs",
+    "3d-avatar",
+    "ai-assistant"
+  ],
+  "author": "logicalkiller",
+  "license": "",
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "electron": "^28.2.0"
+  }
+}

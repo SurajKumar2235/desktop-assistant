@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "python",
+      "args": ["-m", "mcp_server_filesystem"],
+      "enabled": true,
+      "description": "Local workspace file system access"
+    },
+    "web_search": {
+      "command": "python",
+      "args": ["-m", "mcp_server_brave_search"],
+      "enabled": false,
+      "description": "Live web search and indexing"
+    },
+    "calculator": {
+      "command": "builtin",
+      "enabled": true,
+      "description": "Mathematical calculation engine"
+    }
+  }
+}
